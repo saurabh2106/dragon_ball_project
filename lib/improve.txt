@@ -1,5 +1,0 @@
-🔥 How to Maximize Your Learning?
-💡 Try adding new features (e.g., a search bar, sorting characters by strength).
-💡 Optimize performance (e.g., caching images, pagination).
-💡 Experiment with different UI styles (e.g., Hero animations for transitions).
-💡 Challenge yourself → Can you create a power comparison screen?
