@@ -29,10 +29,8 @@ class DioClient {
       final response = await dio.get(endpointUrl, queryParameters: params);
       return response;
     } on DioException catch (e) {
-      print('❌ API Error: ${e.response?.statusCode} - ${e.message}');
       throw Exception('API error - Failed to fetch data: ${e.message}');
     } catch (e) {
-      print('❌ Unknown Error: $e');
       rethrow;
     }
   }
