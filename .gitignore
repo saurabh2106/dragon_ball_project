@@ -1,0 +1,127 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/build/
+**/.dart_tool/
+**/.idea/
+**/.vscode/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/pubspec.lock
+**/.packages
+**/android/.gradle/
+**/android/key.properties
+**/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/AppFrameworkInfo.plist
+**/*.iml
+
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+analysis_options.yaml
+pubspec.yaml
+pubspec.lock
+android/build.gradle.kts
+android/app/build.gradle.kts
+android/app/src/debug/AndroidManifest.xml
+android/app/src/main/kotlin/com/example/dragonball/MainActivity.kt
+android/app/src/main/AndroidManifest.xml
+android/app/src/main/res/mipmap-hdpi/ic_launcher.jpg
+android/app/src/main/res/mipmap-mdpi/ic_launcher.jpg
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.jpg
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.jpg
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.jpg
+macos/Runner/Configs/Debug.xcconfig
+**/android/.gradle/
+**/android/key.properties
+**/android/local.properties
+
+# Flutter build and system files
+**/build/
+**/.dart_tool/
+**/.idea/
+**/.vscode/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/pubspec.lock
+**/.packages
+
+# Android
+
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/AppFrameworkInfo.plist
+
+# macOS
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/Generated.xcconfig
+**/macos/Flutter/AppFrameworkInfo.plist
+**/macos/Runner.xcworkspace/
+**/macos/Runner.xcodeproj/project.xcworkspace/
+**/macos/Runner/xcshareddata/
+**/macos/Runner/xcuserdata/
+
+# Windows
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/CMakeLists.txt
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated_plugin_registrant.cc
+
+# Web
+**/web/icons/
+**/web/.dart_tool/
+**/web/build/
+**/web/generated_plugin_registrant.dart
+
+# Tests and repo metadata
+**/test/
+**/dragonball_repo_test.dart
+**/widget_test.dart
+
+ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
