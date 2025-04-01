@@ -1,16 +1,40 @@
-# dragonball
+# Dragon Ball App
 
-A new Flutter project.
+## Overview
+This Flutter application shows characters and their power levels in Dragon Ball Anime. Users can select two characters from a dropdown list, and the app visually displays their power comparison using a well-designed UI.
 
-## Getting Started
+## Features
+- **Character Selection**: Users can select two characters from a predefined list.
+- **Power Comparison**: Displays a comparison of power levels between the selected characters.
+- **Enhanced UI**: Uses `Card`, `DropdownButton`, and `Image.network` for a visually appealing interface.
+- **State Management**: Implemented using `flutter_riverpod` for managing selected characters.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Flutter**: Cross-platform development framework.
+- **Dart**: Programming language for Flutter.
+- **Riverpod**: State management solution.
+- **Material UI Components**: Used for dropdowns, cards, and images.
 
-A few resources to get you started if this is your first Flutter project:
+## Folder Structure
+lib/
+├── model/
+│   ├── dragonball_model.dart
+│   ├── dragonball_model.g.dart
+├── network/
+│   ├── dio_client.dart
+├── provider/
+│   ├── dragonball_provider.dart
+│   ├── filtered_characters_notifier.dart
+│   ├── power_comparison_provider.dart
+│   ├── search_bar_provider.dart
+├── repose/
+│   ├── dragonball_repos.dart
+├── screens/
+│   ├── all_dragonball_list.dart
+│   ├── character_detail_screen.dart
+│   ├── power_comparison_screen.dart
+├── widget/
+│   ├── character_card.dart
+├── main.dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
